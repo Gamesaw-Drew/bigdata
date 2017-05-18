@@ -5,7 +5,9 @@ button {
     text-shadow: 0 0 black;
 }
 button:hover {
-    box-shadow: inset 0px -20px 0 0px #00bcd4;
+    box-shadow: inset 0px -80px 0 0px #00bcd4;
+    color: white;
+    text-shadow: 0 0 10px black;
 }
 
 button {
@@ -14,6 +16,7 @@ button {
     background-color: white;
     text-shadow: 0 0 black;
     border-style: solid;
+    font-size: x-large;
 }
 
 a {
@@ -24,5 +27,5 @@ a {
 
 a:hover {
     color: white;
+    text-shadow: 0 0 10px black;
 }
-
