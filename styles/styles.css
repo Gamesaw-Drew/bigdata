@@ -1,1 +1,28 @@
+button {
+    box-shadow: 0 0px 3px 0px #607D8B;
+    transition: all .5s;
+    background-color: white;
+    border: none;
+    text-shadow: 0 0 black;
+}
+button:hover {
+    box-shadow: inset 0px -20px 0 0px #00bcd4;
+}
 
+button {
+    box-shadow: 0 0px 3px 0px #607D8B;
+    transition: all .5s;
+    background-color: white;
+    border: none;
+    text-shadow: 0 0 black;
+}
+
+a {
+    color: black;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
