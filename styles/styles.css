@@ -20,5 +20,4 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
-p{font-family: 'Roboto', sans-serif;}
+* {transition: all .5s; font-family: 'Roboto', sans-serif;}
