@@ -19,5 +19,9 @@
     border-color: #9E9E9E;
     font-family: 'Roboto', sans-serif;
 }
+.centered {
+    margin: auto;
+    text-align: center;
+}
 
 * {transition: all .5s; font-family: 'Roboto', sans-serif;}
