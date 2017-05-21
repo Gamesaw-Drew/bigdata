@@ -1,6 +1,6 @@
 # Big Data Final
 By
-Drew @Gamesaw-Drew
-Jason @Computerchamp2
-Evan @1faven2
-Sam @MOTorBOatMyGOATbILL
+[Drew](https://github.com/gamesaw-drew)
+[Jason](https://github.com/computerchamp2)
+[Evan](https://github.com/1faven2)
+[Sam](https://github.com/MOTorBOatMyGOATbILL)
