@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i');
 .mainbtn:hover {
     box-shadow: 0px 0px 20px 4px #2196f3;
+    animation: glowpulse .5s;
+    animation-iteration-count: infinite;
+    animation-delay: .5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
     color: white;
     text-shadow: 0 0 10px black;
     background-color: #2196f3;
@@ -37,6 +42,19 @@ body{}
     min-height: 400px;
     background: transparent;
     background-size: cover;
+}
+
+.locknav{
+    position: fixed;
+}
+@keyframes glowpulse {
+    0%{
+        box-shadow: 0px 0px 20px 4px #2196f3;
+    }
+    100%{
+        box-shadow: 0px 0px 20px 8px #2196f3;
+    }
+
 }
 
 * {transition: all .5s; font-family: 'Roboto', sans-serif;}
