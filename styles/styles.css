@@ -30,6 +30,13 @@
     margin: auto;
     text-align: center;
 }
+
 body{}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    background-size: cover;
+}
 
 * {transition: all .5s; font-family: 'Roboto', sans-serif;}
