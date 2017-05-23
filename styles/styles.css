@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i');
+
+* {
+    transition: all .5s;
+    font-family: 'Roboto', sans-serif;
+    }
+
 .mainbtn:hover {
     box-shadow: 0px 0px 20px 4px #2196f3;
     animation: glowpulse .5s;
@@ -9,7 +15,7 @@
     color: white;
     text-shadow: 0 0 10px black;
     background-color: #2196f3;
-}
+    }
 
 .mainbtn {
     box-shadow: 0 0px 0px 1px #607D8B;
@@ -24,37 +30,50 @@
     text-decoration: none;
     border-color: #9E9E9E;
     font-family: 'Roboto', sans-serif;
-}
-.mainbtn_curpage{
+    }
+
+.mainbtn_curpage {
     background-color: #607D8B;
     color: white;
     box-shadow: 0px 0px 20px 4px #2196f3;
-}
+    }
 
 .centered {
     margin: auto;
     text-align: center;
-}
+    }
 
-body{}
+body {
+    }
 
 .parallax-window {
     min-height: 400px;
     background: transparent;
     background-size: cover;
-}
+    }
 
-.locknav{
+.locknav {
     position: fixed;
-}
+    }
+
 @keyframes glowpulse {
-    0%{
+    0% {
         box-shadow: 0px 0px 20px 4px #2196f3;
-    }
-    100%{
+        }
+    100% {
         box-shadow: 0px 0px 20px 8px #2196f3;
+        }
     }
 
-}
+@keyframes imgpop {
+    from {
+        opacity: 0;
+        transform: scale(.8);
+        }
+    }
 
-* {transition: all .5s; font-family: 'Roboto', sans-serif;}
+img {
+    box-shadow: 0px 0px 20px 4px dimgray;
+    animation: imgpop .5s;
+    animation-timing-function: ease-in-out;
+    }
