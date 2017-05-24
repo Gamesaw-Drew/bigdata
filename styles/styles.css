@@ -54,6 +54,7 @@ body {
 
 .locknav {
     position: fixed;
+    width: 100%;
     }
 
 @keyframes glowpulse {
