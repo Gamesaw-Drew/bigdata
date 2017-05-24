@@ -74,6 +74,12 @@ body {
         }
     }
 
+@keyframes seperatebutequalxd {
+    from {
+        opacity: 0;
+        transform: scale(0, 1);
+        }
+    }
 
 img {
     animation: imgpop .5s;
@@ -81,4 +87,13 @@ img {
     }
 
 .footerbase{
+    }
+
+.seperatebutequal {
+    margin: auto;
+    width: 40%;
+    background-color: rgba(96, 125, 139, 0.1);
+    padding: 2px 0 2px 0;
+    animation: seperatebutequalxd .5s;
+    animation-timing-function: ease-in-out;
     }
