@@ -23,12 +23,10 @@
     transition: all .5s;
     background-color: white;
     text-shadow: 0 0 black;
-    border-style: none;
     color: black;
     padding: 20px;
-    border-width: 2px;
     text-decoration: none;
-    border-color: #9E9E9E;
+    border: 2px none #9E9E9E;
     font-family: 'Roboto', sans-serif;
     }
 
