@@ -1,5 +1,5 @@
 function start() {
-    document.getElementById("footerbase").innerHTML = "Copyright Bool";
+    document.getElementById("footerbase").innerHTML = "Bigdata";
     if( document.getElementById("credits")) bigData1();
 }
 
