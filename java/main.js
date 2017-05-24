@@ -1,10 +1,10 @@
 function start() {
     document.getElementById("footerbase").innerHTML = "Bigdata";
     if( document.getElementById("credits")) bigData1();
-    document.getElementById("nav").innerHTML = '<a href = "index.html" class = "mainbtn" style = "width: 160px;height: 80px;">HOME</a> '+
-        '<a href = "page2.html" class = "mainbtn" style = "width: 160px;height: 80px;">Questions</a> '+
-        '<a href = "bigdata.html" class = "mainbtn" style = "width: 160px;height: 80px;">The Data</a> '+
-        '<a href = "page3.html" class = "mainbtn" style = "width: 160px;height: 80px;">The Big Question</a>'
+    document.getElementById("nav").innerHTML = '<a id = "home" href = "index.html" class = "mainbtn" style = "width: 160px;height: 80px;">HOME</a> '+
+        '<a id = "pg2" href = "page2.html" class = "mainbtn" style = "width: 160px;height: 80px;">Questions</a> '+
+        '<a id = "bd" href = "bigdata.html" class = "mainbtn" style = "width: 160px;height: 80px;">The Data</a> '+
+        '<a id = "pg3" href = "page3.html" class = "mainbtn" style = "width: 160px;height: 80px;">The Big Question</a>'
 }
 
 function begin() {
