@@ -15,6 +15,7 @@
     color: white;
     text-shadow: 0 0 10px black;
     background-color: #2196f3;
+    padding: 30px 20px 30px 20px;
     }
 
 .mainbtn {
@@ -23,7 +24,6 @@
     background-color: white;
     text-shadow: 0 0 black;
     border-style: none;
-    font-size: x-large;
     color: black;
     padding: 20px;
     border-width: 2px;
