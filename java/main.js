@@ -14,7 +14,7 @@ function start() {
 }
 
 function begin() {
-    setTimeout(start, 20);  // Wait a few milliseconds to make sure all the objects it wants are loaded
+    setTimeout(start, 50);  // Wait a few milliseconds to make sure all the objects it wants are loaded
 }
 
 function bigData1(){
