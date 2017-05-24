@@ -53,8 +53,9 @@ body {
     }
 
 .locknav {
-    position: fixed;
     width: 100%;
+    background-color: #607D8B;
+    padding: 40px 0 40px 0;
     }
 
 @keyframes glowpulse {
@@ -72,6 +73,7 @@ body {
         transform: scale(.8);
         }
     }
+
 
 img {
     animation: imgpop .5s;
