@@ -28,6 +28,7 @@
     text-decoration: none;
     border: 2px none #9E9E9E;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
     }
 
 .mainbtn_curpage {

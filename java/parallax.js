@@ -121,7 +121,7 @@
     if (slider.length == 0)
       this.$slider = $('<img />').prependTo(this.$mirror);
     else {
-      this.$slider = slider.prependTo(this.$mirror)
+      this.$slider = slider.prependTo(this.$mirror);
       sliderExisted = true;
     }
 
@@ -154,10 +154,8 @@
       this.$slider.trigger('load');
     }
 
-  };
-
-
-  // Parallax Instance Methods
+  }
+    // Parallax Instance Methods
 
   $.extend(Parallax.prototype, {
     speed:    0.2,
@@ -379,9 +377,8 @@
         }
       }
     })
-  };
-
-  var old = $.fn.parallax;
+  }
+    var old = $.fn.parallax;
 
   $.fn.parallax             = Plugin;
   $.fn.parallax.Constructor = Parallax;
