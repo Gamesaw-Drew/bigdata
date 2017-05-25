@@ -15,7 +15,7 @@ function makepg2() {
     document.getElementById("pg2").className = "mainbtn mainbtn_curpage";
     document.getElementById("bd").className = "mainbtn";
     document.getElementById("pg3").className = "mainbtn";
-    document.getElementById("pg4").className = "mainbtn"
+    document.getElementById("pg4").className = "mainbtn";
     window.location.hash = "#p2"
 }
 
@@ -25,7 +25,7 @@ function makebd() {
     document.getElementById("pg2").className = "mainbtn";
     document.getElementById("bd").className = "mainbtn mainbtn_curpage";
     document.getElementById("pg3").className = "mainbtn";
-    document.getElementById("pg4").className = "mainbtn"
+    document.getElementById("pg4").className = "mainbtn";
     window.location.hash = "#p3"
 }
 
@@ -35,7 +35,7 @@ function makepg3() {
     document.getElementById("pg2").className = "mainbtn";
     document.getElementById("bd").className = "mainbtn";
     document.getElementById("pg3").className = "mainbtn mainbtn_curpage";
-    document.getElementById("pg4").className = "mainbtn"
+    document.getElementById("pg4").className = "mainbtn";
     window.location.hash = "#p4"
 }
 
@@ -45,7 +45,7 @@ function makepg4() {
     document.getElementById("pg2").className = "mainbtn";
     document.getElementById("bd").className = "mainbtn";
     document.getElementById("pg3").className = "mainbtn";
-    document.getElementById("pg4").className = "mainbtn mainbtn_curpage"
+    document.getElementById("pg4").className = "mainbtn mainbtn_curpage";
     window.location.hash = "#p5"
 }
 
@@ -58,45 +58,49 @@ function makeNavBar() {
 }
 function begin() {
     setTimeout(makeNavBar, 1);
-    if(window.location.hash){
-        if(window.location.hash == "#p1"){
+    if (window.location.hash) {
+        if (window.location.hash == "#p1") {
             setTimeout(makeHome, 200)
         }
-        if(window.location.hash == "#p2"){
+        if (window.location.hash == "#p2") {
             setTimeout(makepg2, 200)
         }
-        if(window.location.hash == "#p3"){
+        if (window.location.hash == "#p3") {
             setTimeout(makebd, 200)
         }
-        if(window.location.hash == "#p4"){
+        if (window.location.hash == "#p4") {
             setTimeout(makepg3, 200)
         }
-        if(window.location.hash == "#p5"){
+        if (window.location.hash == "#p5") {
             setTimeout(makepg4, 200)
         }
     }
-    else{setTimeout(makeHome, 200);}
+    else {
+        setTimeout(makeHome, 200);
+    }
 }
 window.onload = begin();
 
 function hashChange() {
-    if(window.location.hash){
-        if(window.location.hash == "#p1"){
+    if (window.location.hash) {
+        if (window.location.hash == "#p1") {
             makeHome();
         }
-        if(window.location.hash == "#p2"){
+        if (window.location.hash == "#p2") {
             makepg2();
         }
-        if(window.location.hash == "#p3"){
+        if (window.location.hash == "#p3") {
             makebd();
         }
-        if(window.location.hash == "#p4"){
+        if (window.location.hash == "#p4") {
             makepg3();
         }
-        if(window.location.hash == "#p5"){
+        if (window.location.hash == "#p5") {
             makepg4();
         }
     }
-    else{setTimeout(makeHome, 200);}
+    else {
+        setTimeout(makeHome, 200);
+    }
 }
 window.onhashchange = hashChange;
